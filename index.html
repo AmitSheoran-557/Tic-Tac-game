@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tic-Tac-Game</title>
+</head>
+
+<body>
+    <main class="flex flex-col items-center justify-center h-screen bg-hunterGreen">
+        <h1 class="text-4xl text-white font-bold mb-10">Tic-Tac-Game</h1>
+        <div class="msg-container mx-auto hidden">
+            <p id="msg" class="text-3xl text-white mb-5">winner</p>
+        </div>
+        <div class="container flex flex-wrap justify-center items-center">
+
+            <div class="box-container flex flex-wrap justify-center items-center max-w-xs gap-3">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+        <button class="mt-10 px-3 py-1 bg-[#9F9FAD] rounded reset">Reset</button>
+
+    </main>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
